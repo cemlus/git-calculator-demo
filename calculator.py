@@ -9,7 +9,8 @@ def multiply(a, b):
     return a * b
 
 def divide(a, b):
-    return a / b
+    result = round(a / b, 2)
+    return f"Result: {result}"
 
 if __name__ == "__main__":
     print("Simple Calculator v1.0")
